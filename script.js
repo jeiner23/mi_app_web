@@ -3,6 +3,7 @@ document.getElementById('btnClick').addEventListener('click', function() {
 });
 
 //Este es un metodo del formulario
+//Este cambio se hizo en la rama hotfix
 document.getElementById('contactForm').addEventListener('submit', function(event) {
     event.preventDefault();
     var name = document.getElementById('name').value;
